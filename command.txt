@@ -1,0 +1,6 @@
+gcc -pthread server.c -o server
+./server 5552 3
+
+
+gcc client.c -o client
+./client 192.168.0.255 5552 3
