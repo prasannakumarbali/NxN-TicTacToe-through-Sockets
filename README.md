@@ -16,6 +16,10 @@ To compile and run the code, you need to have the following prerequisites instal
 GCC (GNU Compiler Collection): A C compiler.
 
 Sockets library: The code requires the standard sockets library available on Linux.
+## Summary
+Socket programming is a way of connecting two nodes on a network to communicate with each other. One socket(node) listens on a particular port at an IP, while other socket reaches out to the other to form a connection. Server forms the listener socket while client reaches out to the server.
+Protocol:TCP Variables:socket_id,bind_id,choice of client and server. Methods:socket(),bind(),listen(),accept(),connect(),send(),recv(),check_board()[To check the who won client or server],board().
+Structure:sockaddr_in for setting the ip family,address,portno.
 ## Contact Details
 Ekank - ekank1410@gmail.com
 
